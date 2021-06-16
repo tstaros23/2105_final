@@ -13,6 +13,7 @@ class Train
     end
     sum
   end
+  require "pry"; binding.pry
 
   def add_cars(car,amount)
     @cargo[car] = amount
